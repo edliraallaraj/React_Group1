@@ -28,8 +28,8 @@
 // let array = []; // empty array
 
 // let students = [
-//   "Laura",
-//   "Ola",
+  // "Laura",
+//   //"Ola",
 //   "Eduart",
 //   "Klaudio",
 //   "Ariana",
@@ -41,7 +41,7 @@
 //   "Vitjola",
 //   "Ilda",
 //   "Juli",
-// ];
+//  ];
 
 // console.log(students);
 // console.log(students[2]);
@@ -56,7 +56,7 @@
 
 // // Adds an element at the beginning of the array
 // students.unshift("TEst");
-// console.log(students);
+//console.log(students);
 
 // // Pop - removes the last element of the array
 // students.pop();
@@ -72,40 +72,77 @@
 
 // Objects
 
-const student = {
-  fullName: "Albi Mema",
-  profession: "Software Developer",
-  age: 25,
-  city: "Tirane",
-};
+//const student = {
+//   fullName: "Albi Mema",
+//   profession: "Software Developer",
+//   age: 25,
+//   city: "Tirane",
+// };
 
-console.log(student);
-console.log(student.profession);
+// console.log(student);
+// console.log(student.profession);
 
-const students = [
-  {
-    fullName: "Albi Mema",
-    profession: "Software Developer",
-    age: 25,
-    city: "Tirane",
-  },
-  {
-    fullName: "Ilda Peti",
-    profession: "Software Engineer",
-    age: 21,
-    city: "Tirane",
-  },
-  {
-    fullName: "Vitjola Peshtani",
-    profession: "Product Owner",
-    age: 28,
-    city: "Tirane",
-  },
-];
+// const students = [
+//   {
+//     fullName: "Albi Mema",
+//     profession: "Software Developer",
+//     age: 25,
+//     city: "Tirane",
+//   },
+//   {
+//     fullName: "Ilda Peti",
+//     profession: "Software Engineer",
+//     age: 21,
+//     city: "Tirane",
+//   },
+//   {
+//     fullName: "Vitjola Peshtani",
+//     profession: "Product Owner",
+//     age: 28,
+//     city: "Tirane",
+//   },
+// ];
 
-// Ilda's age is 21
+// // Ilda's age is 21
 
-let ildasName = students[1].fullName;
-let ildasAge = students[1].age;
+// let ildasName = students[1].fullName;
+// let ildasAge = students[1].age;
 
-console.log(`${ildasName} age is ${ildasAge}`);
+// console.log(`${ildasName} age is ${ildasAge}`);
+// 
+
+
+
+
+
+
+
+
+
+// create an object  called car, give it some properties like color and mark of it 
+// output on th console something like:"My car is of type (type of the car), its creation year is....and its color is....."
+
+
+// const makina = { 
+// color : "black" ,
+// mark  : "volswagen",
+// year : "2010",
+
+
+//  } ;
+
+//   let makinamark = makina.mark,
+// let makinayear = makina.year,
+// let makinacolor =makina.color,
+
+
+
+
+// console.log("my car is of type")
+
+
+
+
+
+
+
