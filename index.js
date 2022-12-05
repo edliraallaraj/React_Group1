@@ -34,4 +34,4 @@ mark: "Wolswagen",
     
 console.log(`My car is ${cars [2].mark} its creation year ${cars[1].year} and its color is  ${cars [1].color}`);
 
-   
+let arrays = ["test1", "test2"];
