@@ -71,7 +71,7 @@
 // console.log(`${partOfClass} is part of React students`);
 
 // Objects
-
+/*
 const student = {
   fullName: "Albi Mema",
   profession: "Software Developer",
@@ -105,7 +105,24 @@ const students = [
 
 // Ilda's age is 21
 
-let ildasName = students[1].fullName;
-let ildasAge = students[1].age;
+//let albisName = students[1].fullName;
+//let ildasAge = students[1].age;
 
 console.log(`${ildasName} age is ${ildasAge}`);
+
+
+*/
+
+// Ushtrimi 1 i zyshes .
+
+const vehicle = {
+  Mark: "Ford",
+  Year: "2009",
+  Color: "Black",
+};
+
+let vehiclemark = vehicle.Mark;
+let vehicleyear = vehicle.Year;
+let vehiclecolor = vehicle.Color;
+
+console.log(`My car is of type ${vehiclemark} , its production year is ${vehicleyear} and its color is ${vehiclecolor}`);
