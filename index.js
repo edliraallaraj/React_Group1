@@ -109,3 +109,20 @@ let ildasName = students[1].fullName;
 let ildasAge = students[1].age;
 
 console.log(`${ildasName} age is ${ildasAge}`);
+
+/////////////////////////Lesson 2 /////////////////////////////////////////////////////////
+
+// Create an object called car, give it some properties like color, year of creation and mark of it.
+// Ouput on the console something like: "My car is of type (type of the car), its creation year is .... and its color is ......"
+
+const car = {
+  color: "blue",
+  year: "2010",
+  mark: "Ford",
+};
+let cColor = car.color;
+let cYear = car.year;
+let cMark = car.mark;
+console.log(
+  `My car is of type ${cColor}, its creation year is ${cYear},and its color is ${cMark}`
+);
