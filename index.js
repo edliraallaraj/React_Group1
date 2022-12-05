@@ -139,3 +139,11 @@ let carColor = car[0].color;
 let carYear  = car[0].year;
 
   console.log(`My car is type ${carModel}, its year is ${carYear} and its color is ${carColor}.`);
+
+
+  // git add .
+  // git commit -m "........."
+  // git push
+
+  //git fetch --- see all the branches
+  //git checkout .... --- enter a branch
