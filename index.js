@@ -111,7 +111,7 @@ let ildasAge = students[1].age;
 // console.log(`${ildasName} age is ${ildasAge}`);
 
 
-//    LESSON 2
+////////////////////    LESSON 2 ////////////////////////////////////////////
 
 
 const car = [
