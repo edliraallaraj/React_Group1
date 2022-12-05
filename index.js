@@ -79,8 +79,8 @@ const student = {
   city: "Tirane",
 };
 
-console.log(student);
-console.log(student.profession);
+// console.log(student);
+// console.log(student.profession);
 
 const students = [
   {
@@ -108,4 +108,34 @@ const students = [
 let ildasName = students[1].fullName;
 let ildasAge = students[1].age;
 
-console.log(`${ildasName} age is ${ildasAge}`);
+// console.log(`${ildasName} age is ${ildasAge}`);
+
+
+//    LESSON 2
+
+
+const car = [
+  {
+    model: "AUDI",
+    year: 2017,
+    color: "midnight",
+  },
+
+  {
+    model: "BMW",
+    year: 2020,
+    color: "black",
+  },
+
+  {
+    model: "DACIA",
+    year: 2014,
+    color: "yellow",
+  },
+]
+
+let carModel = car[0].model;
+let carColor = car[0].color;
+let carYear  = car[0].year;
+
+  console.log(`My car is type ${carModel}, its year is ${carYear} and its color is ${carColor}.`);
