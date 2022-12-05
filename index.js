@@ -116,9 +116,9 @@ console.log(`${ildasName} age is ${ildasAge}`);
 // Ushtrimi 1 i zyshes .
 
 const vehicle = {
-  Mark: "Ford",
-  Year: "2009",
-  Color: "Black",
+  Mark: "Range Rover",
+  Year: "2019",
+  Color: "White",
 };
 
 let vehiclemark = vehicle.Mark;
