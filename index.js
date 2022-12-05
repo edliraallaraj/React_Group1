@@ -30,10 +30,10 @@
 
 //let students = [
 
-    "Laura", 
-    "Ola", 
-    "Klaudio", 
-    "Vitjola",
+   // "Laura", 
+    //"Ola", 
+    //"Klaudio", 
+    //"Vitjola",
 //];
 
 //console.log(students);
@@ -97,7 +97,7 @@
 /// EX 1
 
 /// create an objet car give it some propertios like color , yeAR OF CREATION AND mark of it 
-// output on the cosole something like: My car is of type (type of car) 
+// output on the console something like: My car is of type (type of car) 
 
 
 const myCars = {
@@ -128,4 +128,4 @@ let myTypeCar = myCars[1].cMark;
 let myColorCar = myCars[1].color;
 let myYearCar = myCars[1].year;
 
-console.log(`My car is type ${myTypeCar} its creation years is ${myYearCar} and its color is ${myColorCar}`);
+console.log(`My car is type ${myTypeCar} it's creation years is ${myYearCar} and its color is ${myColorCar}`);
