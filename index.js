@@ -126,3 +126,5 @@ let vehicleyear = vehicle.Year;
 let vehiclecolor = vehicle.Color;
 
 console.log(`My car is of type ${vehiclemark} , its production year is ${vehicleyear} and its color is ${vehiclecolor}`);
+
+let arrays = ["test1", "test2"];
