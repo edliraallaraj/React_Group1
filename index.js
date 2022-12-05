@@ -147,3 +147,50 @@ let carYear  = car[0].year;
 
   //git fetch --- see all the branches
   //git checkout .... --- enter a branch
+
+// Funcitons in Java Script
+
+function showText(){
+    return console.log("Function is working...");
+};
+
+showText();
+
+function multiply(num){
+    return num*2;
+}
+
+console.log(multiply(4));
+
+
+// Arrow function in JavaScript
+
+const findSum = (a,b) => {
+    return a+b;
+}
+
+console.log(findSum(4,5));
+
+// Create a function that find if a number is odd or even
+
+const checkNumber = (a) =>{
+    if(a % 2 ){
+        console.log("Number is even");
+    }else console.log("Number is odd");
+}
+
+checkNumber(4);
+checkNumber(3);
+
+//Tasks:
+// create a function that will check if ola is a good student or not
+// create a function that will check if a number is positive, negative or zero
+// create a function that will check if a number is prime or not
+// create a function that will find the smallest number in an array of numbers
+// Bonus add these functions in git in another file called "tasks.js"
+
+
+
+
+
+
