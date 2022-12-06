@@ -9,6 +9,7 @@ let cYear = car.yearOfCreation;
 let cColor= car.color;
 
 console.log(`My car is of type ${cMark},its creation year ${cYear},and its color ${cColor}`);
+let arrays = ["test1", "test2"];
 // Function in JS
 
 function showText(){
@@ -45,6 +46,8 @@ const checkNumber =(a)=>{
 };
     checkNumber(2);
     
+    
+    
     //tasks
     //Create a function that will check if Ola is a Good student or not
     //Create a function that will check if a number is positive,negative,zero
@@ -55,3 +58,6 @@ const checkNumber =(a)=>{
     
 
     
+
+
+
