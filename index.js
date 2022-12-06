@@ -123,3 +123,56 @@ let carYear = car.yearOfCreation;
 let carMark = car.mark;
 
 console.log(`My car is of type ${carMark} its creation year is ${carYear} and its color is ${carColor}`);
+
+//Funksionet - bllok kodi qe eshte reusable///////////////////
+
+function showText() {
+    return "Function is working."
+    //return console.log("Function is working")
+};
+
+// we should call the function
+console.log(showText());
+//showText();
+
+// Function with parameters
+
+function multiplyNumber(number) {
+    return number * 2;
+}
+
+console.log(multiplyNumber(4)); //tek therritja parametra statik
+console.log(multiplyNumber(6));
+console.log(multiplyNumber(8));
+console.log(multiplyNumber(9));
+console.log(multiplyNumber(2));
+console.log(multiplyNumber(3));
+console.log(multiplyNumber(5));
+
+// Arrow functions in js 
+
+const findSum = (a, b) => {
+    return a + b;
+}
+
+console.log(findSum(1,2));
+
+//create a function that finds if a number is odd or even
+
+const checkNumber = (a) => {
+    if(a % 2 === 0) { //3 barazime per krahasim
+     console.log("Number is even");   
+    } else console.log("Number is odd");
+};
+
+checkNumber(3);
+checkNumber(2);
+
+
+// Tasks:
+// create a function that will check if Ola is a good student or not
+// create a function that will check if a number is positive, negative or zero
+// create a function that will check if a number is prime or not
+// create a function that will find the smallest number in an array of numbers
+
+// BONUS add these functions in git in another file called "tasks.js"
