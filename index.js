@@ -18,6 +18,11 @@ let car =[
         year:"60",
         mark:"OPEL",
     },
+    {
+        color:"gold",
+        year:"50",
+        mark:"Honda",
+    },
 ];
 
 let carColor= car.color;
@@ -26,3 +31,5 @@ let carMark= car.mark;
 
 console.log(`My car is of type ${carMark}, its creation year is${carYear} and its color is ${carColor}`
 );
+
+ 
