@@ -35,7 +35,7 @@ const positiveOrNegative = (a) => {
   console.log('4 -',prime(4)); 
 
 // 4- Create a function that will find the smallest number in an array of numbers
-const numbers = [2, 3, 8, 7, 0, 34, 12];
+const numbers = [2, 3, 8, 7, 0, 34, 12, -3];
 const smallestNumber = Math.min(...numbers);
 
 console.log('Smallest number in array - ', smallestNumber); 
