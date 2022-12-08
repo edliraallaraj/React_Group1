@@ -34,4 +34,50 @@ mark: "Wolswagen",
     
 console.log(`My car is ${cars [2].mark} its creation year ${cars[1].year} and its color is  ${cars [1].color}`);
 
-   
+
+// Lesson 2 Functions in JavaScript 
+// without parameters
+ function showText() {
+return "Function is working"
+ };
+
+//  We should call the function 
+console.log(showText());
+
+//Functions  with parameters
+function multiplyNumber(number) {
+return  number * 2;
+}
+console.log(multiplyNumber(4));
+console.log(multiplyNumber(2));
+console.log(multiplyNumber(8));
+console.log(multiplyNumber(6));
+console.log(multiplyNumber(9));
+
+
+//  Arrow functions in JavaScript
+const findSum = (a,b) => {
+return a + b;
+};
+console.log(findSum(4,5));
+console.log(findSum(15,3));
+console.log(findSum(7,2));
+
+// Create a function that find if a number is odd or even
+const checkNumber = (a) => {
+if(a % 2 === 0) {
+  console.log("Number is even");
+
+} else   console.log("Number is odd")
+
+};
+checkNumber(3);
+checkNumber(2);
+
+
+//  Tasks
+//  Create a function that will Check if Ola is a good student or not
+// Create a function that will check if a number is positive. negative or zero
+// Create a function that will check if a number is prime or  not
+// Create a function that will find the smallest number in an array of numbers
+// Bonus* add these functions in git in another file called tasks.js
