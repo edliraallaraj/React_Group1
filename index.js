@@ -109,3 +109,18 @@ let ildasName = students[1].fullName;
 let ildasAge = students[1].age;
 
 console.log(`${ildasName} age is ${ildasAge}`);
+
+
+const car = {
+  color: "red",
+  year: "2017",
+  mark: "BMW",
+};
+
+let cColor = car.color;
+let cYear = car.year;
+let cMark = car.mark;
+
+console.log(
+  `My car is of type ${cMark}, it's creation year is ${cYear} and its color is ${cColor}`
+);
