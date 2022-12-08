@@ -34,6 +34,7 @@ mark: "Wolswagen",
     
 console.log(`My car is ${cars [2].mark} its creation year ${cars[1].year} and its color is  ${cars [1].color}`);
 
+<<<<<<< HEAD
 
 // Lesson 2 Functions in JavaScript 
 // without parameters
@@ -81,3 +82,6 @@ checkNumber(2);
 // Create a function that will check if a number is prime or  not
 // Create a function that will find the smallest number in an array of numbers
 // Bonus* add these functions in git in another file called tasks.js
+=======
+let arrays = ["test1", "test2"];
+>>>>>>> dad459466f9c67126822f72e24f1842be91b8c0e
