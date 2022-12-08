@@ -1,3 +1,4 @@
+console.log("=======Exercise 1========")
 // 1- Create a function that will check if Ola is a good student or not
 const student = (grade) => {
 if (grade > 4 && grade <= 10){
@@ -9,6 +10,8 @@ if (grade > 4 && grade <= 10){
 };
 console.log("When grade is 4 - ",student(4));
 console.log("When grade is between 5 and 10 - ",student(5));
+
+console.log("=======Exercise 2========")
 // 2- Create a function that wil check if a number is positive, negative or zero
 const positiveOrNegative = (a) => {
     if(a > 0 ){
@@ -23,20 +26,31 @@ const positiveOrNegative = (a) => {
   console.log('-3 - ',positiveOrNegative(-3)); 
   console.log('0 - ',positiveOrNegative(0)); 
 
+  console.log("=======Exercise 3========")
 // 3- Create a function that will check if a number is prime or not
   const prime = (a) => {
-    if(a % 2 ===0 ){
-        return "Number is  not prime"
-    } else return "Number is prime  "
+    if (a === 1){
+      return "Number isn't primary or not primary"
+    }
+    if( a > 1 ){
+        for( var i =2; i < a; i++ ) {
+          if (a % i == 0){
+
+            return "Number is  not prime"
+          }
+        }
+    } else return "Number is prime"
 
   };
 
-  console.log('3 -',prime(3)); 
-  console.log('4 -',prime(4)); 
-
+  console.log('9 -',prime(9));
+  console.log('1 -',prime(1)); 
+ 
+  console.log("=======Exercise 4========")
 // 4- Create a function that will find the smallest number in an array of numbers
 const numbers = [2, 3, 8, 7, 0, 34, 12, -3];
 const smallestNumber = Math.min(...numbers);
 
 console.log('Smallest number in array - ', smallestNumber); 
+
 //Bonus….Add these functions in git in another file called task.js
